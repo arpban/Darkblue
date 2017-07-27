@@ -1,2 +1,2 @@
-# Darkblue
-A wordpress theme.
+# Mini Moocs
+Project website.

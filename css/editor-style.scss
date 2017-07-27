@@ -1,0 +1,55 @@
+@import 'partials/variables';
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  font-family: $raleway;
+  font-weight: 400;
+  color: $black;
+}
+h1,h2,h3,h4,p{
+  margin:0;
+  padding: 0;
+}
+h1{
+  font-family: $lato;
+  font-size: 40px;
+  margin: 10px 0px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+h2{
+  font-family: $raleway;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 10px 0px;
+  line-height: 1.5em;
+}
+h3{
+  font-family: $raleway;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px 0px;
+  line-height: 1.5em;
+}
+p{
+  font-family: $raleway;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 10px 0px;
+  line-height: 1.5em;
+}
+a{
+  text-decoration: none;
+  color: $orange;
+  &:hover{
+    color: $blue;
+    text-decoration: none;
+  }
+}
+
+p,h2,h3{
+  width: 80%;
+}
